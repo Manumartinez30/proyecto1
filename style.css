@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/quirofano.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-right: 50px;
+}
+
+.hero {
+    padding: 20px;
+    text-align: center;
+    background-color: #dad8d8;
+}
+
+.services ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.services li {
+    font-size: 18px;
+    width: calc(33.33% - 30px);
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #893030;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.services li:nth-child(1) {
+    background-color: #993333;
+}
+
+.services li:nth-child(2) {
+    background-color: #333573;
+}
+
+.services li:nth-child(3) {
+    background-color: #268033;
+}
+
+.services li:nth-child(4) {
+    background-color: #683232;
+}
+
+.services li:nth-child(5) {
+    background-color: #5d6832;
+}
+
+.services li:nth-child(6) {
+    background-color: #aed62e;
+}
+
+.location {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(198, 18, 51);
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #993333;
+    height: 40px;
+    border: none;
+    width: 300px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+}
